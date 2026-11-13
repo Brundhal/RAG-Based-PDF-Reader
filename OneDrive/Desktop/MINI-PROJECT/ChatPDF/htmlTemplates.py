@@ -219,6 +219,12 @@ section[data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] button s
     font-weight: 800 !important;
 }
 
+section[data-testid="stSidebar"] [data-testid="stFileUploader"] [data-testid="stFileUploaderFile"],
+section[data-testid="stSidebar"] [data-testid="stFileUploader"] [data-testid="stFileUploaderFile"] span,
+section[data-testid="stSidebar"] [data-testid="stFileUploader"] [data-testid="stFileUploaderFile"] p {
+    color: #ffffff !important;
+}
+
 .selected-docs,
 .summary-box {
     background: #ffffff;
@@ -233,7 +239,7 @@ section[data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] button s
 }
 
 .selected-doc {
-    color: #31445d;
+    color: #ffffff;
     font-size: 0.94rem;
     font-weight: 700;
     margin-top: 0.55rem;
